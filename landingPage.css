@@ -1,0 +1,224 @@
+#navbar {
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+#NavSearchBar {
+  position: absolute;
+  width: 360px;
+  height: 42px;
+  left: 540px;
+  top: 16px;
+
+  background: #f2f2f2;
+  border-radius: 21px;
+}
+
+#searchIcon {
+  position: absolute;
+  left: 12.5%;
+  right: 14.63%;
+  top: 12.5%;
+  bottom: 14.63%;
+
+  background: #7a7a7a;
+}
+
+#createAccount {
+  position: absolute;
+  width: 183px;
+  height: 21px;
+  left: 1161px;
+  top: 27px;
+
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #2e2e2e;
+}
+
+#dropDownIcon {
+  position: absolute;
+  left: 29.17%;
+  right: 29.17%;
+  top: 41.67%;
+  bottom: 37.5%;
+
+  background: #2e2e2e;
+}
+
+#subject {
+  width: 1440px;
+  height: 440px;
+  left: 0px;
+  top: 72px;
+}
+
+#EnggImage {
+  position: absolute;
+  width: 1440px;
+  height: 440px;
+  left: 0px;
+  top: 72px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.45) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+    url('/images/Rectangle 2CE.png')
+  );
+}
+
+#BranchTitle {
+  position: absolute;
+  width: 378px;
+  height: 47px;
+  left: 200px;
+  top: 358px;
+
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+#branchDescription {
+  position: absolute;
+  width: 327px;
+  height: 23px;
+  left: 200px;
+  top: 409px;
+
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+#MenuBar {
+  width: 1040px;
+  left: 200px;
+  top: 88px;
+  margin-bottom: 125px;
+}
+
+.nav-link {
+  transition: all 0.2s;
+}
+
+.nav-link:hover::after {
+  content: "";
+  position: absolute;
+  width: 93px;
+  height: 0px;
+  left: 200px;
+  top: 600px;
+
+  border: 1px solid #000000;
+}
+
+#WritePost {
+  position: absolute;
+  width: 133px;
+  height: 36px;
+  left: 966px;
+  top: 552px;
+
+  background: #edeef0;
+  border-radius: 4px;
+}
+
+#JoinGroup {
+  position: absolute;
+  width: 125px;
+  height: 36px;
+  left: 1045px;
+  top: 13px;
+}
+
+.allPosts {
+  position: absolute;
+}
+/* 
+.card {
+  position: absolute; 
+  width: 692px;
+  height: 472px;
+  left: 200px;
+  top: 628px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.card.card-body.card-title {
+   position: absolute; 
+  width: 600px;
+  height: 60px;
+  left: 220px;
+  top: 903px;
+
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 134.17%;
+} */
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 1040px;
+  margin-left: 200px;
+}
+.homepage_aside {
+  width: 25%;
+}
+
+.card {
+  width: 59%;
+}
+
+.card-content {
+    margin-bottom: 0.5rem;
+    border-bottom-left-radius: calc(0.25rem - 1px);
+    border-bottom-right-radius: calc(0.25rem - 1px);
+}
+
+
+
+.share {
+  position: absolute;
+  left: 630px;
+  top: 410px;
+}
+.grid1 h2 {
+  position: absolute;
+  width: 80px;
+  height: 31px;
+  left: 388px;
+  top: 260px;
+}
+.grid1 input {
+  padding: 20px;
+}

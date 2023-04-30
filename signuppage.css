@@ -1,0 +1,112 @@
+
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    width: 736px;
+    height: 457px;
+    left: 352px;
+    top: 186px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-family: 'IBM Plex Sans';
+}
+
+.header {
+    position: absolute;
+    width: 736px;
+    height: 50px;
+    background: #EFFFF4;
+}
+
+header img {
+    margin-top: 17px;
+    margin-left: 59px;
+}
+
+form {
+    /* position: absolute; */
+    margin: 24px 620px 352px 36px;
+}
+
+form h2 {
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+margin-top: 24px;
+    margin-bottom: 24px
+}
+
+form input {
+    padding: 5px;
+    width: 320px;
+    height: 40px;
+    background: #F7F8FA;
+    border: 1px solid #D9D9DB;
+    border-radius: 2px 2px 0px 0px;
+}
+
+form button {
+    margin-top: 19px;
+    width: 320px;
+    height: 40px;
+    background: #2F6CE5;
+    border-radius: 20px;
+    color: white;
+}
+
+.signInWithFacebook {
+    /* display: flex; */
+    width: 320px;
+    height: 38px;
+    margin-top: 24px;
+    border: 0.6px solid #D9D9DB;
+    border-radius: 2px;
+    margin-bottom: 8px;
+}
+
+.signInWithFacebook img {
+    margin-left: 77px;
+    margin-top: 2px;
+}
+
+.signInWithFacebook p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin: -17px 80px 0px 103px;
+}
+
+.signInWithGoogle {
+    /* display: flex; */
+    width: 320px;
+    height: 38px;
+    margin-top: 24px;
+    border: 0.6px solid #D9D9DB;
+    border-radius: 2px;
+    margin-bottom: 8px;
+}
+
+.signInWithGoogle img {
+    margin-left: 77px;
+    margin-top: 2px;
+}
+
+#forgotPassword {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.008em;
+
+    color: #000000;
+}
+
+.imageSignIn{
+    position: absolute;
+    margin: 95px 36px 5px 380px;
+}
